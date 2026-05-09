@@ -1,42 +1,75 @@
-# Portfolio Digital Marketing - Adam Batara Setyaatmaja
+# Portfolio Adam Batara Setyaatmaja
 
-Selamat datang di portfolio digital marketing profesional Adam Batara Setyaatmaja. Website ini menampilkan layanan, pengalaman, dan pencapaian dalam industri digital marketing.
+## 🎯 Tentang Portfolio Ini
 
-## 🎯 Fitur Utama
+Portfolio digital marketing Adam Batara Setyaatmaja - Specialist dalam SEO, Google Ads, Meta Ads, dan TikTok Ads dengan pengalaman lebih dari 8 tahun.
 
-- **Responsive Design**: Tampilan sempurna di semua perangkat (desktop, tablet, mobile)
-- **Design Creative**: Tema biru laut dengan animasi yang menarik
-- **Layanan Digital Marketing**:
-  - SEO (Search Engine Optimization)
-  - Google Ads
-  - Meta Ads (Facebook & Instagram)
-  - TikTok Ads
+## 📋 Konten Portfolio
 
-- **Konten Lengkap**:
-  - Profil profesional
-  - Pengalaman kerja
-  - Keahlian & pencapaian
-  - Formulir kontak
+### Layanan Utama
+- **SEO Optimization** - On-page & Off-page optimization
+- **Google Ads** - PPC campaign management
+- **Meta Ads** - Facebook & Instagram advertising
+- **TikTok Ads** - Short-form video advertising
+- **Social Media Marketing** - Strategi media sosial terintegrasi
 
-## 📱 Kontak
+### Case Studies
 
-- **WhatsApp**: [085156965265](https://wa.me/6285156965265)
-- **Instagram**: [@adamm099](https://instagram.com/adamm099)
+#### 1. Wahid / Alsofi Travel Malang (2017-2018)
+- Membangun brand trust dari nol
+- Ranking halaman 1 Google untuk keywords: "travel malang juanda", "travel malang surabaya"
+- **Hasil**: 30 → 400 order (6 bulan), Rating 4.8
+- Tools: Google SEO, Google Ads, Social Media
+
+#### 2. Batara Travel Malang (2018-2025)
+- Brand trust building campaign
+- Target keywords: "travel malang juanda", "travel malang surabaya"
+- **Hasil**: 30 → 1000 order (6 bulan), Rating 4.8
+- Tools: Google SEO, Google Ads, Social Media
+- Website: https://bataratravel.com/
+
+#### 3. City Trans Malang Travel (2018-2024)
+- Brand development & digital marketing
+- Target keywords: "travel malang juanda", "travel malang surabaya"
+- **Hasil**: 30 → 500 order (6 bulan), Rating 4.8
+- Tools: Google SEO, Google Ads, Social Media
+- Website: https://www.citytransmalangtravel.com/
+
+#### 4. Tripple Mice Trans (2025-Sekarang)
+- Ongoing campaign untuk brand development
+- Target keywords: "travel malang juanda", "travel malang surabaya"
+- **Hasil**: 30 → 400 order (4 bulan)
+- Tools: Google SEO, Google Ads, Social Media
+- Website: https://tripplemice-trans.com/
+
+## 📞 Kontak
+
+- **WhatsApp**: 085156965265
 - **Email**: adamsetyaatmaja@gmail.com
-- **Lokasi**: Kota Malang, Indonesia
+- **Instagram**: @adamm099
+- **Lokasi**: Kota Malang, Jawa Timur
 
-## 🛠️ Teknologi yang Digunakan
+## 💻 Teknologi yang Digunakan
 
 - HTML5
-- CSS3 (dengan animasi modern)
-- JavaScript (vanilla)
-- Font Awesome Icons
+- CSS3 (dengan Gradient dan Animasi)
+- JavaScript (Vanilla)
+- Responsive Design
+- SEO Optimized
 
-## 🎨 Palet Warna
+## 🚀 Fitur Website
 
-- **Primary Blue**: #0052A3
-- **Dark Blue**: #003d7a
-- **Accent Blue**: #00a8e8
-- **Light Blue**: #e3f2fd
+✅ Hero section yang menarik
+✅ Service showcase dengan 4 layanan utama
+✅ Portfolio section dengan 4 case studies lengkap
+✅ About section dengan pengalaman & keahlian
+✅ Contact form dengan integrasi WhatsApp
+✅ Responsive design untuk mobile, tablet, desktop
+✅ Smooth animations & transitions
+✅ SEO friendly structure
 
-## 📂 Struktur File
+## 📝 Cara Menggunakan
+
+1. Clone repository ini
+   ```bash
+   git clone https://github.com/xadambatara/portfolio.git
