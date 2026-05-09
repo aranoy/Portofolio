@@ -67,9 +67,3 @@ Portfolio digital marketing Adam Batara Setyaatmaja - Specialist dalam SEO, Goog
 ✅ Responsive design untuk mobile, tablet, desktop
 ✅ Smooth animations & transitions
 ✅ SEO friendly structure
-
-## 📝 Cara Menggunakan
-
-1. Clone repository ini
-   ```bash
-   git clone https://github.com/xadambatara/portfolio.git
