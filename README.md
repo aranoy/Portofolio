@@ -1,27 +1,42 @@
-# Hi, I'm Adam 👋
+# Portfolio Digital Marketing - Adam Batara Setyaatmaja
 
-Digital Marketing & Web Developer
+Selamat datang di portfolio digital marketing profesional Adam Batara Setyaatmaja. Website ini menampilkan layanan, pengalaman, dan pencapaian dalam industri digital marketing.
 
-## Skills
-- WordPress
-- Elementor
-- Meta Ads
-- Google Ads
-- Landing Page
-- HTML CSS
+## 🎯 Fitur Utama
 
-## Portfolio
+- **Responsive Design**: Tampilan sempurna di semua perangkat (desktop, tablet, mobile)
+- **Design Creative**: Tema biru laut dengan animasi yang menarik
+- **Layanan Digital Marketing**:
+  - SEO (Search Engine Optimization)
+  - Google Ads
+  - Meta Ads (Facebook & Instagram)
+  - TikTok Ads
 
-### Tripple Mice Trans
-Website travel & booking system.
+- **Konten Lengkap**:
+  - Profil profesional
+  - Pengalaman kerja
+  - Keahlian & pencapaian
+  - Formulir kontak
 
-🔗 https://tripplemice-trans.com/
+## 📱 Kontak
 
-### Batara Travel
-Landing page & WhatsApp booking integration.
+- **WhatsApp**: [085156965265](https://wa.me/6285156965265)
+- **Instagram**: [@adamm099](https://instagram.com/adamm099)
+- **Email**: adamsetyaatmaja@gmail.com
+- **Lokasi**: Kota Malang, Indonesia
 
-🔗 https://bataratravel.com
+## 🛠️ Teknologi yang Digunakan
 
-## Contact
-- Email: adamsetyaatmaja@gmail.com
-- WhatsApp: 085156965265
+- HTML5
+- CSS3 (dengan animasi modern)
+- JavaScript (vanilla)
+- Font Awesome Icons
+
+## 🎨 Palet Warna
+
+- **Primary Blue**: #0052A3
+- **Dark Blue**: #003d7a
+- **Accent Blue**: #00a8e8
+- **Light Blue**: #e3f2fd
+
+## 📂 Struktur File
