@@ -1,4 +1,34 @@
-// Smooth scroll behavior
+// Mobile Menu Toggle
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+if (hamburger) {
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+}
+
+// Close menu when link is clicked
+const navLinks = document.querySelectorAll('.nav-menu a');
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        hamburger.classList.remove('active');
+    });
+});
+
+// Form Submission
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Terima kasih! Pesan Anda sudah dikirim. Saya akan segera menghubungi Anda.');
+        contactForm.reset();
+    });
+}
+
+// Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -12,91 +42,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form submission
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    const formData = new FormData(this);
-    const name = this.querySelector('input[type="text"]').value;
-    const email = this.querySelector('input[type="email"]').value;
-    const message = this.querySelector('textarea').value;
-    
-    // Create message for WhatsApp
-    const whatsappMessage = `Halo Adam, nama saya ${name}. Email: ${email}. Pesan: ${message}`;
-    const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappLink = `https://wa.me/6285156965265?text=${encodedMessage}`;
-    
-    // Open WhatsApp
-    window.open(whatsappLink, '_blank');
-    
-    // Reset form
-    this.reset();
-    
-    // Show success message
-    alert('Pesan akan dikirim ke WhatsApp Anda. Terima kasih!');
-});
-
-// Navbar active link highlight
-window.addEventListener('scroll', () => {
-    let current = '';
-    
-    document.querySelectorAll('section').forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (pageYOffset >= sectionTop - 200) {
-            current = section.getAttribute('id');
-        }
-    });
-    
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href').slice(1) === current) {
-            link.style.color = '#00a8e8';
-        } else {
-            link.style.color = '';
-        }
-    });
-});
-
-// Add fade-in animation on scroll
+// Scroll Animation
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
 };
 
-const observer = new IntersectionObserver(function(entries) {
+const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
+            entry.target.style.animation = 'slideUp 0.6s ease forwards';
+            observer.unobserve(entry.target);
         }
     });
 }, observerOptions);
 
-// Observe service cards and contact cards
-document.querySelectorAll('.service-card, .contact-card, .experience-list li').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    observer.observe(el);
+// Observe service cards and portfolio cards
+document.querySelectorAll('.service-card, .portfolio-card').forEach(card => {
+    observer.observe(card);
 });
-
-// Mobile menu toggle (if needed in future)
-const navLinks = document.querySelector('.nav-links');
-const handleNavClick = (e) => {
-    if (e.target.tagName === 'A') {
-        // Close menu if needed
-    }
-};
-
-navLinks.addEventListener('click', handleNavClick);
-
-// Add animation to hero elements
-window.addEventListener('load', () => {
-    const heroElements = document.querySelectorAll('.hero-text h1, .hero-subtitle, .hero-desc, .btn, .profile-circle');
-    heroElements.forEach((el, index) => {
-        el.style.animation = `slideInLeft 0.8s ease ${index * 0.1}s both`;
-    });
-});
-
-console.log('Portfolio website loaded successfully!');
